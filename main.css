@@ -6,13 +6,15 @@ body img {
 }
 body #cover {
   background-image: url("flowercover.jpg");
-  background-image: grayscale(0.6);
+  filter: brightness(0.3);
+  filter: grayscale(0.7);
   background-repeat: no-repeat;
   background-size: 100%;
   align-items: center;
+  height: 100vh;
 }
 body .cover-heading {
-  filter: grayscale(0.6);
+  filter: grayscale(0.2);
 }
 body img-fluid {
   width: 100%;
