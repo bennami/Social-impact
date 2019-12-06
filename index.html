@@ -15,25 +15,43 @@
 
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand " href="#">Bloemen Abeel Diane</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"  aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">contact</a>
-                <a class="nav-item nav-link" href="#">bloemen</a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"  aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                     <a class="nav-item nav-link" href="#contact">contact</a>
+                     <a class="nav-item nav-link" href="#">bloemen</a>
+                 </div>
             </div>
-        </div>
     </nav>
-    <div class="container-fluid banner">
-       <div class="img"> <img class=cover src="flowercover.jpg"></div>
-        <div  class="info"><h1 text-center>Bloemen voor iedereen!</h1></div>
+
+
+
+
+
+    <!--
+    <div class="container">
+        <div class="row">
+             <div class="cover-container d-flex w-100 h-100 flex-column">
+
+                 <img class=cover src="flowercover.jpg">
+             </div>
+
+            <div  class="coverinfo">
+                  <h1 text-center>Bloemen voor iedereen!</h1>
+                 <button type="button" class="btn btn-light">click </button>
+            </div>
+
+        </div>
+
     </div>
-
-    <!-- card img overlay -->
-
-
+-->
 </header>
+<img src="flowercover.jpg" class="img-fluid " alt="Responsive image" style="width:100%">
+
+<!-- info blocks -->
 
 <section class="container d-flex m-5 p-5 justify-content-center">
     <section class="row">
@@ -42,13 +60,76 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur ea eum ipsam iure iusto labore laboriosam officia officiis quae? Adipisci dolore eum magnam nobis, nostrum quidem veniam veritatis vitae!</p>
     </div>
     <div class="img col-lg-6 col-sm-12">
-        <img src="flower-business.jpg">
+        <img class=image src="flower-business.jpg">
     </div>
     </section>
 
 </section>
 
-<footer> &copy 2019 Bloemen Abeel Diane</footer>
+
+<!--carousel-->
+
+<div id="MagicCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+
+    <ol class="carousel-indicators">
+        <li data-target="#MagicCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#MagicCarousel" data-slide-to="1" ></li>
+        <li data-target="#MagicCarousel" data-slide-to="2" ></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="flowercarousel.jpg" alt="First slide">
+        </div>
+
+        <div class="carousel-item">
+            <img class="d-block w-100" src="flowercarousel2.jpg" alt="Second slide">
+        </div>
+
+        <div class="carousel-item">
+            <img class="d-block w-100" src="flowercarousel3.jpg" alt="Third slide">
+        </div>
+
+        <a class="carousel-control-prev" href="#MagicCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#MagicCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">next</span>
+        </a>
+
+    </div>
+
+</div>
+
+<!--contact-->
+
+<section id="contact" class="container d-flex m-5 p-5 justify-content-center">
+    <section class="row">
+        <div class="text col-lg-6 col-sm-12">
+            <h3>Waar?</h3>
+            <p> Alle werkdagen en zaterdag open<br>
+
+                van 8u15 tot 17u30,<br>zon-en feestdagen<br>van 9u00 tot 16u00<br>Woensdag gesloten<br>(Uitgezonderd op feestdagen)<br>Sint Bernardsesteenweg 1138 - 1140<br>2660 Hoboken
+
+            </p>
+            <h3>Contacteer ons!</h3>
+            <p>03/827.66.29</p>
+        </div>
+
+        <div class="img col-lg-6 col-sm-12">
+            <img class=imageLocation src="location.jpg">
+        </div>
+    </section>
+
+</section>
+
+
+
+<footer class="footer"> &copy 2019 Bloemen Abeel Diane</footer>
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
