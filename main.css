@@ -21,5 +21,9 @@ body .img {
 body .img img {
   max-width: 100vw;
 }
+body .img footer {
+  margin: 10%;
+  padding: 20%;
+}
 
 /*# sourceMappingURL=main.css.map */
