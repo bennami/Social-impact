@@ -4,6 +4,16 @@ body {
 body img {
   filter: grayscale(0.6);
 }
+body #cover {
+  background-image: url("flowercover.jpg");
+  background-image: grayscale(0.6);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
+}
+body .cover-heading {
+  filter: grayscale(0.6);
+}
 body img-fluid {
   width: 100%;
 }
